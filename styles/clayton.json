@@ -1,0 +1,103 @@
+{
+    "title": "Clayton",
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 2,
+    "settings": {
+        "color": {
+			"palette": [
+				{
+					"slug": "foreground",
+					"color": "#202021",
+					"name": "Foreground"
+				},
+				{
+					"slug": "background",
+					"color": "#FFF",
+					"name": "Background"
+				},
+				{
+					"slug": "primary",
+					"color": "#105AFE",
+					"name": "Primary"
+				},
+				{
+					"slug": "secondary",
+					"color": "#635F5A",
+					"name": "Secondary"
+				},
+				{
+					"slug": "tertiary",
+					"color": "#E2E2E2",
+					"name": "Tertiary"
+				},
+				{
+					"slug": "quaternary",
+					"color": "#F3F2F2",
+					"name": "Quaternary"
+				}
+			]
+		},
+		"custom": {
+			"typography": {
+				"letter-spacing": {
+					"body": "0",
+					"heading": "0",
+					"gigantic": "0"
+				}
+			}
+		}
+    },
+	"styles": {
+		"blocks": {
+			"core/button": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--default)",
+					"fontWeight": "700",
+					"textTransform": "uppercase"
+				}
+			},
+			"core/site-title": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--system-serif)",
+					"fontWeight": "400"
+				}
+			}
+		},
+		"elements": {
+			"h1": {
+				"typography": {
+					"fontWeight": "400"
+				}
+			},
+			"h2": {
+				"typography": {
+					"fontWeight": "400"
+				}
+			},
+			"h3": {
+				"typography": {
+					"fontWeight": "400"
+				}
+			},
+			"h4": {
+				"typography": {
+					"fontWeight": "400"
+				}
+			},
+			"h5": {
+				"typography": {
+					"fontWeight": "400"
+				}
+			},
+			"h6": {
+				"typography": {
+					"fontWeight": "400"
+				}
+			}
+		},
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--system-serif)",
+			"fontWeight": "400"
+		}
+	}
+}

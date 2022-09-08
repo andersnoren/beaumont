@@ -1,0 +1,41 @@
+{
+    "title": "Burton",
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 2,
+    "settings": {
+        "color": {
+			"palette": [
+				{
+					"slug": "foreground",
+					"color": "#FFF",
+					"name": "Foreground"
+				},
+				{
+					"slug": "background",
+					"color": "#2C2C2C",
+					"name": "Background"
+				},
+				{
+					"slug": "primary",
+					"color": "#FF502D",
+					"name": "Primary"
+				},
+				{
+					"slug": "secondary",
+					"color": "#AAA",
+					"name": "Secondary"
+				},
+				{
+					"slug": "tertiary",
+					"color": "#555",
+					"name": "Tertiary"
+				},
+				{
+					"slug": "quaternary",
+					"color": "#444",
+					"name": "Quaternary"
+				}
+			]
+		}
+    }
+}
