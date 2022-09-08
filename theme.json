@@ -121,7 +121,7 @@
 				},
 				{
 					"slug": "small",
-					"size": "clamp(16px, 1.25vw, 18px)",
+					"size": "clamp(15px, 1.25vw, 18px)",
 					"name": "Small"
 				},
 				{
@@ -196,10 +196,10 @@
 				},
 				"spacing": {
 					"padding": {
-						"bottom": "1em",
-						"left": "1.77em",
-						"right": "1.77em",
-						"top": "1em"
+						"bottom": ".867em",
+						"left": "1.6em",
+						"right": "1.6em",
+						"top": ".867em"
 					}
 				},
 				"typography": {
@@ -271,7 +271,7 @@
 			"core/quote": {
 				"border": {
 					"width": "1px",
-					"color": "var(--wp--preset--color--tertiary)"
+					"color": "var(--wp--preset--color--secondary)"
 				},
 				"spacing": {
 					"padding": {

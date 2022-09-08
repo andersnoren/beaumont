@@ -61,8 +61,7 @@ input, textarea, select, button {
 
 input, textarea, select {
 	background-color: var( --wp--preset--color--background );
-	border: .1rem solid var( --wp--preset--color--tertiary );
-	border-radius: .4rem;
+	border: .1rem solid var( --wp--preset--color--secondary );
 	box-sizing: border-box;
 	color: var( --wp--preset--color--foreground );
 	max-width: 100%;
@@ -81,7 +80,7 @@ figure {
 }
 
 figcaption {
-	color: var( --wp--preset--color--secondary );
+	color: var( --wp--preset--color--primary );
 }
 
 :root figcaption {
@@ -155,13 +154,13 @@ input[type="submit"],
 input[type="reset"],
 .wp-block-search__button,
 .wp-block-file .wp-block-file__button {
-	background-color: var( --wp--preset--color--primary );
+	background-color: var( --wp--preset--color--foreground );
 	border: none;
 	border-radius: 0;
 	color: var(--wp--preset--color--background);
 	font-size: var(--wp--preset--font-size--medium);
 	letter-spacing: inherit;
-	padding: calc(.667em + 2px) calc(1.333em + 2px);
+	padding: calc(.867em + 2px) calc(1.6em + 2px);
 }
 
 /* Editor Post Title */
@@ -257,7 +256,6 @@ p.has-background {
 	display: block;
 }
 
-/* Block: Buttons ---------------------------- */
 /* Block: Calendar --------------------------- */
 
 .wp-block-calendar table caption,
@@ -267,11 +265,11 @@ p.has-background {
 
 .wp-block-calendar th,
 .wp-block-calendar tbody td {
-	border-color: var( --wp--preset--color--secondary );
+	border-color: var( --wp--preset--color--primary );
 }
 
 .wp-block-calendar table th { 
-	background-color: var( --wp--preset--color--secondary ); 
+	background-color: var( --wp--preset--color--primary ); 
 }
 
 /* Block: Comments --------------------------- */
@@ -304,8 +302,13 @@ p.has-background {
 	padding: var(--wp--custom--spacing--outer); 
 }
 
-/* Block: Pagination ------------------------- */
 /* Block: Paragraph -------------------------- */
+
+.has-drop-cap:not(:focus):first-letter {
+    font-size: 5.36em;
+    font-weight: inherit;
+}
+
 /* Block: Post Comments Form ----------------- */
 
 ol.wp-block-comment-template {
@@ -314,7 +317,7 @@ ol.wp-block-comment-template {
 
 .wp-block-post-comments-form input:not([type=submit]), 
 .wp-block-post-comments-form textarea {
-	border-color: var( --wp--preset--color--tertiary );
+	border-color: var( --wp--preset--color--secondary );
 }
 
 .required-field-message,
@@ -323,14 +326,13 @@ ol.wp-block-comment-template {
 }
 
 .logged-in-as {
-	color: var( --wp--preset--color--secondary );
+	color: var( --wp--preset--color--primary );
 }
 
 .comment-reply-title {
 	margin: 0;
 }
 
-/* Block: Post Featured Image ---------------- */
 /* Block: Post Navigation -------------------- */
 
 .post-navigation-link-previous a:before { content: "← "; }
@@ -353,7 +355,6 @@ ol.wp-block-comment-template {
 	max-width: 100%;
 }
 
-/* Block: Query Loop ------------------------- */
 /* Block: Query Pagination ------------------- */
 
 .wp-block-query-pagination > .wp-block-query-pagination-next, 
@@ -420,9 +421,9 @@ blockquote p:last-child { margin-bottom: 0; }
 
 :root .wp-block-table *,
 .wp-block-table.is-style-stripes {
-	border-color: var(--wp--preset--color--secondary);
+	border-color: var(--wp--preset--color--primary);
 }
 
 .wp-block-table.is-style-stripes tbody tr:nth-child(odd) { 
-	background-color: var(--wp--preset--color--secondary); 
+	background-color: var(--wp--preset--color--primary); 
 }
