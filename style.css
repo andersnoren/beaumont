@@ -201,11 +201,6 @@ p.has-background {
 	line-height: var( --wp--custom--typography--line-height--headings ); 
 }
 
-.has-gigantic-font-size {
-	letter-spacing: var( --wp--custom--typography--letter-spacing--gigantic );
-	line-height: var( --wp--custom--typography--line-height--headings--gigantic );
-}
-
 .has-medium-font-size {
 	line-height: var( --wp--custom--typography--line-height--body );
 }
@@ -342,8 +337,61 @@ ol.wp-block-comment-template {
 
 /* Block: Post Navigation -------------------- */
 
-.post-navigation-link-previous a:before { content: "← "; }
-.post-navigation-link-next a:after { content: " →"; }
+/* STYLE: VERTICAL SEPARATORS */
+
+.wp-block-query-pagination.is-style-king-vertical-separators {
+	border-bottom: 1px solid var( --wp--preset--color--secondary );
+	border-top: 1px solid var( --wp--preset--color--secondary );
+	gap: 0;
+}
+
+.wp-block-query-pagination.is-style-king-vertical-separators a,
+.wp-block-query-pagination-numbers {
+	position: relative;
+}
+
+.wp-block-query-pagination.is-style-king-vertical-separators .post-navigation-link-previous a:before,
+.wp-block-query-pagination.is-style-king-vertical-separators .post-navigation-link-next a:before {
+	position: absolute;
+}
+
+.wp-block-query-pagination.is-style-king-vertical-separators .post-navigation-link-previous a:before { content: "←"; }
+.wp-block-query-pagination.is-style-king-vertical-separators .post-navigation-link-next a:before { content: "→"; }
+
+/* Horizontal Orientation */
+
+.wp-block-query-pagination.is-style-king-vertical-separators.is-horizontal {
+	gap: 16px;
+	padding: 16px 0;
+}
+
+.wp-block-query-pagination.is-style-king-vertical-separators.is-horizontal .post-navigation-link-previous a { padding-left: 1.6em; }
+.wp-block-query-pagination.is-style-king-vertical-separators.is-horizontal .post-navigation-link-previous a:before { left: 0; }
+
+.wp-block-query-pagination.is-style-king-vertical-separators.is-horizontal .post-navigation-link-next a { padding-right: 1.6em; }
+.wp-block-query-pagination.is-style-king-vertical-separators.is-horizontal .post-navigation-link-next a:before { right: 0; }
+
+/* Vertical Orientation */
+
+.wp-block-query-pagination.is-style-king-vertical-separators.is-vertical > * {
+	padding: 16px 0;
+	width: 100%;
+}
+
+.wp-block-query-pagination.is-style-king-vertical-separators.is-vertical > * + * {
+	border-top: 1px solid var( --wp--preset--color--secondary );
+}
+
+.wp-block-query-pagination.is-style-king-vertical-separators.is-vertical .post-navigation-link-previous a,
+.wp-block-query-pagination.is-style-king-vertical-separators.is-vertical .post-navigation-link-next a,
+.wp-block-query-pagination.is-style-king-vertical-separators.is-vertical .wp-block-query-pagination-numbers {
+	padding-left: 1.6em;
+}
+
+.wp-block-query-pagination.is-style-king-vertical-separators.is-vertical .post-navigation-link-next a:before,
+.wp-block-query-pagination.is-style-king-vertical-separators.is-vertical .post-navigation-link-previous a:before { 
+	left: 0;
+}
 
 /* Block: Pull Quote ------------------------- */
 

@@ -83,6 +83,12 @@ if ( ! function_exists( 'king_register_block_styles' ) ) :
 			'name'  	=> 'king-angled-separator-wide',
 			'label' 	=> esc_html__( 'Angled Wide', 'king' ),
 		) );
+
+		// Pagination: Vertical Separators
+		register_block_style( 'core/query-pagination', array(
+			'name'  	=> 'king-vertical-separators',
+			'label' 	=> esc_html__( 'Vertical Separators', 'king' ),
+		) );
 		
 	}
 	add_action( 'init', 'king_register_block_styles' );
