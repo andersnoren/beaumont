@@ -577,7 +577,7 @@ blockquote p:last-child { margin-bottom: 0; }
 }
 
 .wp-block-search__button svg {
-	transform: scale( 1.2 );
+	transform: scale( 1.15 );
 }
 
 /* Block: Table ------------------------------ */
