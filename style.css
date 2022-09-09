@@ -160,7 +160,7 @@ input[type="reset"],
 	color: var(--wp--preset--color--background);
 	font-size: var(--wp--preset--font-size--medium);
 	letter-spacing: inherit;
-	padding: calc(.867em + 2px) calc(1.6em + 2px);
+	padding: .867em 1.6em;
 }
 
 /* Editor Post Title */
@@ -198,7 +198,7 @@ p.has-background {
 .has-heading-4-font-size,
 .has-heading-5-font-size { 
 	letter-spacing: var( --wp--custom--typography--letter-spacing--heading );
-	line-height: var( --wp--custom--typography--line-height--headings--large ); 
+	line-height: var( --wp--custom--typography--line-height--headings ); 
 }
 
 .has-gigantic-font-size {
@@ -242,6 +242,13 @@ p.has-background {
 /* ------------------------------------------- */
 /* Template Parts
 /* ------------------------------------------- */
+
+
+/* Template Part: Loop ----------------------- */
+
+.wp-block-group.is-nowrap > .wp-block-post-date {
+	flex-shrink: 0;
+}
 
 
 
