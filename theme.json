@@ -279,7 +279,8 @@
 					}
 				},
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--heading-3)",
+					"fontSize": "var(--wp--preset--font-size--heading-2)",
+					"fontWeight": "500",
 					"lineHeight": "var(--wp--custom--typography--line-height--headings)"
 				}
 			},

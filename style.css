@@ -80,11 +80,13 @@ figure {
 }
 
 figcaption {
-	color: var( --wp--preset--color--primary );
+	font-family: var( --wp--preset--font-family--default-sans );
 }
 
 :root figcaption {
+	color: var( --wp--preset--color--primary );
 	font-size: var( --wp--preset--font-size--small );
+	font-weight: 500;
 }
 
 /*
@@ -362,6 +364,18 @@ ol.wp-block-comment-template {
 	margin: 0;
 }
 
+/* Block: Post Content ----------------------- */
+
+.is-root-container > .alignwide:not(:first-child), .wp-block-post-content > .alignwide:not(:first-child),
+.is-root-container > .alignfull:not(:first-child), .wp-block-post-content > .alignfull:not(:first-child) {
+	margin-top: 64px;
+}
+
+.is-root-container > .alignwide:not(:last-child), .wp-block-post-content > .alignwide:not(:last-child),
+.is-root-container > .alignfull:not(:last-child), .wp-block-post-content > .alignfull:not(:last-child) {
+	margin-bottom: 64px;
+}
+
 /* Block: Post Navigation -------------------- */
 
 .wp-block-query-pagination-numbers {
@@ -446,6 +460,15 @@ ol.wp-block-comment-template {
 :root .wp-block-pullquote.has-text-align-left, 
 :root .wp-block-pullquote.has-text-align-right {
 	max-width: 100%;
+}
+
+:root .wp-block-pullquote__citation, 
+:root .wp-block-pullquote cite, 
+:root .wp-block-pullquote footer {
+	font-size: var( --wp--preset--font-size--medium );
+	font-weight: 600;
+	margin-top: 1em;
+	text-transform: none;
 }
 
 /* Block: Query Pagination ------------------- */
