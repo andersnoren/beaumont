@@ -1,17 +1,22 @@
 <!-- wp:template-part {"slug":"header","tagName":"header","className":"site-header","layout":{"inherit":true}} /-->
 
-<!-- wp:group {"tagName":"main","style":{"spacing":{"blockGap":"2rem","padding":{"top":"5vh","bottom":"5vh"}}},"layout":{"inherit":true}} -->
-<main class="wp-block-group" style="padding-top:5vh;padding-bottom:5vh">
-
-	<!-- wp:heading {"level":1} -->
-	<h1>Error 404</h1>
+<!-- wp:group {"tagName":"main","style":{"spacing":{"blockGap":"2rem","padding":{"top":"5vh","bottom":"5vh"},"margin":{"top":"0px","bottom":"0px"}}},"layout":{"inherit":true}} -->
+<main class="wp-block-group" style="margin-top:0px;margin-bottom:0px;padding-top:5vh;padding-bottom:5vh">
+	<!-- wp:heading {"textAlign":"center","level":1,"style":{"spacing":{"margin":{"top":"0px","right":"0px","bottom":"0px","left":"0px"}}}} -->
+	<h1 class="has-text-align-center" style="margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px">Error
+		404</h1>
 	<!-- /wp:heading -->
 
-	<!-- wp:paragraph -->
-	<p>The page you were looking is nowhere to be found. Maybe try the front page instead?</p>
-	<!-- /wp:paragraph -->
+	<!-- wp:group {"style":{"spacing":{"blockGap":"32px","margin":{"top":"21px","bottom":"0px"}}},"layout":{"contentSize":"510px"}} -->
+	<div class="wp-block-group" style="margin-top:21px;margin-bottom:0px">
+		<!-- wp:paragraph {"align":"center"} -->
+		<p class="has-text-align-center">The page you were looking is nowhere to be found. Maybe give the search form
+			below a try?</p>
+		<!-- /wp:paragraph -->
 
-	
+		<!-- wp:search {"label":"Search","showLabel":false,"placeholder":"Search for...","width":272,"widthUnit":"px","buttonText":"Search","buttonPosition":"button-inside","buttonUseIcon":true,"align":"center"} /-->
+	</div>
+	<!-- /wp:group -->
 </main>
 <!-- /wp:group -->
 

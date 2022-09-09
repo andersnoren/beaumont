@@ -141,7 +141,7 @@
 				},
 				{
 					"slug": "small",
-					"size": "clamp(15px, 2.3vw, 18px)",
+					"size": "clamp(16px, 2.3vw, 18px)",
 					"name": "Small"
 				},
 				{

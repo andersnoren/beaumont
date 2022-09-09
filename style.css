@@ -55,6 +55,7 @@ input, textarea, select, button {
 	border-radius: 0;
 	font-family: inherit;
 	font-size: inherit;
+	font-weight: inherit;
 	letter-spacing: inherit;
 	margin: 0;
 }
@@ -158,10 +159,10 @@ input[type="reset"],
 .wp-block-file .wp-block-file__button {
 	background-color: var( --wp--preset--color--foreground );
 	border: none;
-	border-radius: 0;
+	border-radius: 999rem;
 	color: var(--wp--preset--color--background);
 	font-size: var(--wp--preset--font-size--medium);
-	letter-spacing: inherit;
+	letter-spacing: 0;
 	padding: .867em 1.6em;
 }
 
@@ -237,11 +238,25 @@ p.has-background {
 
 
 /* ------------------------------------------- */
+/* Helper Classes
+/* ------------------------------------------- */
+
+.hide-when-empty:empty { display: none !important; }
+
+
+/* ------------------------------------------- */
 /* Template Parts
 /* ------------------------------------------- */
 
 
 /* Site Blocks ------------------------------- */
+
+.wp-site-blocks {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	min-height: calc( 100svh - var( --wp-admin--admin-bar--height, 0 ) );
+}
 
 .wp-site-blocks > * + * {
 	margin-top: 0;
@@ -252,7 +267,6 @@ p.has-background {
 .wp-block-group.is-nowrap > .wp-block-post-date {
 	flex-shrink: 0;
 }
-
 
 
 /* ------------------------------------------- */
@@ -376,75 +390,6 @@ ol.wp-block-comment-template {
 	margin-bottom: 64px;
 }
 
-/* Block: Post Navigation -------------------- */
-
-.wp-block-query-pagination-numbers {
-	display: flex;
-	gap: .5em;
-}
-
-.wp-block-query-pagination-numbers .current {
-	color: var( --wp--preset--color--primary );
-}
-
-/* STYLE: VERTICAL SEPARATORS */
-
-.wp-block-query-pagination.is-style-king-vertical-separators {
-	border-bottom: 1px solid var( --wp--preset--color--secondary );
-	border-top: 1px solid var( --wp--preset--color--secondary );
-	gap: 0;
-}
-
-.wp-block-query-pagination.is-style-king-vertical-separators a,
-.wp-block-query-pagination-numbers {
-	position: relative;
-}
-
-.wp-block-query-pagination.is-style-king-vertical-separators .post-navigation-link-previous a:before,
-.wp-block-query-pagination.is-style-king-vertical-separators .post-navigation-link-next a:before {
-	position: absolute;
-}
-
-.wp-block-query-pagination.is-style-king-vertical-separators .post-navigation-link-previous a:before { content: "←"; }
-.wp-block-query-pagination.is-style-king-vertical-separators .post-navigation-link-next a:before { content: "→"; }
-
-/* Horizontal Orientation */
-
-.wp-block-query-pagination.is-style-king-vertical-separators.is-horizontal {
-	gap: 16px;
-	padding: 16px 0;
-}
-
-.wp-block-query-pagination.is-style-king-vertical-separators.is-horizontal .post-navigation-link-previous a { padding-left: 1.6em; }
-.wp-block-query-pagination.is-style-king-vertical-separators.is-horizontal .post-navigation-link-previous a:before { left: 0; }
-
-.wp-block-query-pagination.is-style-king-vertical-separators.is-horizontal .post-navigation-link-next a { padding-right: 1.6em; }
-.wp-block-query-pagination.is-style-king-vertical-separators.is-horizontal .post-navigation-link-next a:before { right: 0; }
-
-/* Vertical Orientation */
-
-.wp-block-query-pagination.is-style-king-vertical-separators.is-vertical > *:not(:empty) {
-	margin: 0;
-	padding: 16px 0;
-	width: 100%;
-}
-
-.wp-block-query-pagination.is-style-king-vertical-separators.is-vertical > * + *:not(:empty) {
-	border-top: 1px solid var( --wp--preset--color--secondary );
-}
-
-.wp-block-query-pagination.is-style-king-vertical-separators.is-vertical .post-navigation-link-previous a,
-.wp-block-query-pagination.is-style-king-vertical-separators.is-vertical .post-navigation-link-next a,
-.wp-block-query-pagination.is-style-king-vertical-separators.is-vertical .wp-block-query-pagination-numbers {
-	box-sizing: border-box;
-	padding-left: 1.6em;
-}
-
-.wp-block-query-pagination.is-style-king-vertical-separators.is-vertical .post-navigation-link-next a:before,
-.wp-block-query-pagination.is-style-king-vertical-separators.is-vertical .post-navigation-link-previous a:before { 
-	left: 0;
-}
-
 /* Block: Post Template ---------------------- */
 
 .wp-block-post-template {
@@ -487,6 +432,73 @@ ol.wp-block-comment-template {
 
 .wp-block-query-pagination-next:only-child {
 	margin-left: auto;
+}
+
+.wp-block-query-pagination-numbers {
+	display: flex;
+	gap: .5em;
+}
+
+.wp-block-query-pagination-numbers .current {
+	color: var( --wp--preset--color--primary );
+}
+
+/* STYLE: VERTICAL SEPARATORS */
+
+.wp-block-query-pagination.is-style-king-vertical-separators {
+	border-bottom: 1px solid var( --wp--preset--color--secondary );
+	border-top: 1px solid var( --wp--preset--color--secondary );
+	gap: 0;
+}
+
+.wp-block-query-pagination.is-style-king-vertical-separators a,
+.wp-block-query-pagination-numbers {
+	position: relative;
+}
+
+.wp-block-query-pagination.is-style-king-vertical-separators .post-navigation-link-previous a:before,
+.wp-block-query-pagination.is-style-king-vertical-separators .post-navigation-link-next a:before {
+	position: absolute;
+}
+
+.wp-block-query-pagination.is-style-king-vertical-separators .post-navigation-link-previous a:before { content: "←"; }
+.wp-block-query-pagination.is-style-king-vertical-separators .post-navigation-link-next a:before { content: "→"; }
+
+/* Horizontal Orientation */
+
+.wp-block-query-pagination.is-style-king-vertical-separators:not(.is-vertical) {
+	gap: 16px;
+	padding: 16px 0;
+}
+
+.wp-block-query-pagination.is-style-king-vertical-separators:not(.is-vertical) .post-navigation-link-previous a { padding-left: 1.6em; }
+.wp-block-query-pagination.is-style-king-vertical-separators:not(.is-vertical) .post-navigation-link-previous a:before { left: 0; }
+
+.wp-block-query-pagination.is-style-king-vertical-separators:not(.is-vertical) .post-navigation-link-next a { padding-right: 1.6em; }
+.wp-block-query-pagination.is-style-king-vertical-separators:not(.is-vertical) .post-navigation-link-next a:before { right: 0; }
+
+/* Vertical Orientation */
+
+.wp-block-query-pagination.is-style-king-vertical-separators.is-vertical > *:not(:empty) {
+	margin: 0;
+	padding: 16px 0;
+	width: 100%;
+}
+
+.wp-block-query-pagination.is-style-king-vertical-separators.is-vertical > * + *:not(:empty) {
+	border-top: 1px solid var( --wp--preset--color--secondary );
+}
+
+.wp-block-query-pagination.is-style-king-vertical-separators.is-vertical .post-navigation-link-previous a,
+.wp-block-query-pagination.is-style-king-vertical-separators.is-vertical .post-navigation-link-previous + .wp-block-query-pagination-numbers,
+.wp-block-query-pagination.is-style-king-vertical-separators.is-vertical .post-navigation-link-next a {
+	box-sizing: border-box;
+	padding-left: 1.6em;
+}
+
+.wp-block-query-pagination.is-style-king-vertical-separators.is-vertical .post-navigation-link-next a:before,
+.wp-block-query-pagination.is-style-king-vertical-separators.is-vertical .post-navigation-link-previous a:before { 
+	left: 0;
 }
 
 /* Block: Quote ------------------------------ */
@@ -534,10 +546,25 @@ blockquote p:last-child { margin-bottom: 0; }
 	font-weight: inherit;
 }
 
+.wp-block-search.wp-block-search__button-inside .wp-block-search__inside-wrapper,
+.wp-block-search__input {
+	border-color: var( --wp--preset--color--secondary );
+}
+
 .wp-block-search__input {
 	margin: 0;
 	padding: .75em 1.25em;
 }
+
+.wp-block-search__button {
+	border-radius: 999rem;
+	flex-shrink: 0;
+	font-size: inherit;
+	font-weight: 600;
+	margin: 0 0 0 .75em;
+}
+
+/* SETTING: BUTTON INSIDE */
 
 .wp-block-search__button-inside .wp-block-search__inside-wrapper,
 .wp-block-search__button-inside .wp-block-search__input {
@@ -545,11 +572,12 @@ blockquote p:last-child { margin-bottom: 0; }
 	padding: .375em .5em !important;
 }
 
-.wp-block-search__button { 
-	border-radius: 999rem;
-	font-size: inherit;
-	font-weight: 600;
-	margin: 0 0 0 .75em;
+.wp-block-search.wp-block-search__button-inside .wp-block-search__inside-wrapper .wp-block-search__button {
+	border-radius: 0;
+}
+
+.wp-block-search__button svg {
+	transform: scale( 1.2 );
 }
 
 /* Block: Table ------------------------------ */

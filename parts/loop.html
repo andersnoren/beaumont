@@ -4,7 +4,8 @@
 	<!-- wp:group {"style":{"spacing":{"margin":{"top":"0px","bottom":"0px"},"blockGap":"0px"}}} -->
 	<div class="wp-block-group" style="margin-top:0px;margin-bottom:0px">
 		<!-- wp:separator {"backgroundColor":"secondary","className":"is-style-wide"} -->
-		<hr class="wp-block-separator has-text-color has-secondary-color has-alpha-channel-opacity has-secondary-background-color has-background is-style-wide" />
+		<hr
+			class="wp-block-separator has-text-color has-secondary-color has-alpha-channel-opacity has-secondary-background-color has-background is-style-wide" />
 		<!-- /wp:separator -->
 
 		<!-- wp:group {"style":{"spacing":{"margin":{"top":"0px","bottom":"0px"},"padding":{"top":"16px","bottom":"16px"}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between","verticalAlignment":"top"}} -->
@@ -21,19 +22,14 @@
 	<!-- wp:group {"style":{"spacing":{"blockGap":"0px","margin":{"top":"0px","bottom":"0px"}}}} -->
 	<div class="wp-block-group" style="margin-top:0px;margin-bottom:0px">
 		<!-- wp:separator {"backgroundColor":"secondary","className":"is-style-wide"} -->
-		<hr class="wp-block-separator has-text-color has-secondary-color has-alpha-channel-opacity has-secondary-background-color has-background is-style-wide" />
+		<hr
+			class="wp-block-separator has-text-color has-secondary-color has-alpha-channel-opacity has-secondary-background-color has-background is-style-wide" />
 		<!-- /wp:separator -->
 	</div>
 	<!-- /wp:group -->
 
-	<!-- wp:group {"style":{"spacing":{"margin":{"top":"14vh","bottom":"0px"}}}} -->
-	<div class="wp-block-group" style="margin-top:14vh;margin-bottom:0px">
-		<!-- wp:query-pagination {"paginationArrow":"arrow","layout":{"type":"flex","justifyContent":"space-between"}} -->
-		<!-- wp:query-pagination-previous /-->
-
-		<!-- wp:query-pagination-next /-->
-		<!-- /wp:query-pagination -->
-	</div>
+	<!-- wp:group {"style":{"spacing":{"margin":{"top":"14vh","bottom":"0px"}}},"className":"hide-when-empty"} -->
+	<div class="wp-block-group hide-when-empty" style="margin-top:14vh;margin-bottom:0px"><!-- wp:query-pagination {"paginationArrow":"arrow","className":"is-style-default","layout":{"type":"flex","justifyContent":"space-between","orientation":"horizontal"}} --><!-- wp:query-pagination-previous /--><!-- wp:query-pagination-next /--><!-- /wp:query-pagination --></div>
 	<!-- /wp:group -->
 </div>
 <!-- /wp:query -->
