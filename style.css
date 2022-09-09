@@ -69,6 +69,11 @@ input, textarea, select {
 	padding: .5em;
 }
 
+::placeholder { 
+	color: var( --wp--preset--color--primary ); 
+	opacity: 1;
+}
+
 label {
 	font-size: var( --wp--preset--font-size--small );
 	font-weight: 500;
