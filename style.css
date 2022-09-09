@@ -445,6 +445,12 @@ ol.wp-block-comment-template {
 	left: 0;
 }
 
+/* Block: Post Template ---------------------- */
+
+.wp-block-post-template {
+	--wp--style--block-gap: 0;
+}
+
 /* Block: Pull Quote ------------------------- */
 
 :root .wp-block-pullquote blockquote,
