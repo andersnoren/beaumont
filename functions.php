@@ -33,8 +33,6 @@ add_action( 'wp_enqueue_scripts', 'king_styles' );
 
 function king_register_block_patterns() {
 
-	if ( ! function_exists( 'register_block_pattern_category' ) ) return;
-
 	// The block pattern categories included in King.
 	$king_block_pattern_categories = apply_filters( 'king_block_pattern_categories', array(
 		'king-blog'  => array(
@@ -67,29 +65,25 @@ add_action( 'init', 'king_register_block_patterns' );
 	Register theme specific block styles.
 --------------------------------------------------------------------------------------------------- */
 
-if ( ! function_exists( 'king_register_block_styles' ) ) :
-	function king_register_block_styles() {
+function king_register_block_styles() {
 
-		if ( ! function_exists( 'register_block_style' ) ) return;
+	// Pagination: Vertical Separators
+	register_block_style( 'core/query-pagination', array(
+		'name'  	=> 'king-vertical-separators',
+		'label' 	=> esc_html__( 'Vertical Separators', 'king' ),
+	) );
 
-		// Separator: Angled Separator
-		register_block_style( 'core/separator', array(
-			'name'  	=> 'king-angled-separator',
-			'label' 	=> esc_html__( 'Angled', 'king' ),
-		) );
+	// Separator: Diamond
+	register_block_style( 'core/separator', array(
+		'name'  	=> 'king-diamond',
+		'label' 	=> esc_html__( 'Diamond', 'king' ),
+	) );
 
-		// Separator: Angled Separator Wide
-		register_block_style( 'core/separator', array(
-			'name'  	=> 'king-angled-separator-wide',
-			'label' 	=> esc_html__( 'Angled Wide', 'king' ),
-		) );
-
-		// Pagination: Vertical Separators
-		register_block_style( 'core/query-pagination', array(
-			'name'  	=> 'king-vertical-separators',
-			'label' 	=> esc_html__( 'Vertical Separators', 'king' ),
-		) );
-		
-	}
-	add_action( 'init', 'king_register_block_styles' );
-endif;
+	// Separator: Diamond Wide
+	register_block_style( 'core/separator', array(
+		'name'  	=> 'king-diamond-wide',
+		'label' 	=> esc_html__( 'Diamond Wide', 'king' ),
+	) );
+	
+}
+add_action( 'init', 'king_register_block_styles' );

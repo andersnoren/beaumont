@@ -46,11 +46,11 @@
 				"baseline": "16px",
 				"small": "min(32px, 6.4vw)",
 				"gap": {
-					"horizontal": "clamp( calc( 1.5 * var( --wp--custom--spacing--baseline ) ), 2.222vw, calc( 2 * var( --wp--custom--spacing--baseline ) ) )",
-					"vertical": "clamp( calc( 1.5 * var( --wp--custom--spacing--baseline ) ), 3.333vw, calc( 3 * var( --wp--custom--spacing--baseline ) ) )"
+					"horizontal": "clamp( calc( 1.5 * var(--wp--custom--spacing--baseline) ), 2.222vw, calc( 2 * var(--wp--custom--spacing--baseline) ) )",
+					"vertical": "clamp( calc( 1.5 * var(--wp--custom--spacing--baseline) ), 3.333vw, calc( 3 * var(--wp--custom--spacing--baseline) ) )"
 				},
-				"gutter": "clamp( calc( 1.5 * var( --wp--custom--spacing--baseline ) ), 5.8vw, calc( 4 * var( --wp--custom--spacing--baseline ) ) )",
-				"outer": "var( --wp--custom--spacing--gutter )"
+				"gutter": "clamp( calc( 1.5 * var(--wp--custom--spacing--baseline) ), 5.8vw, calc( 4 * var(--wp--custom--spacing--baseline) ) )",
+				"outer": "var(--wp--custom--spacing--gutter)"
 			},
 			"typography": {
 				"letter-spacing": {
@@ -238,20 +238,21 @@
 			"core/group": {
 				"spacing": {
 					"margin": {
-						"bottom": "var( --wp--custom--spacing--outer )",
-						"top": "var( --wp--custom--spacing--outer )"
+						"bottom": "var(--wp--custom--spacing--outer)",
+						"top": "var(--wp--custom--spacing--outer)"
 					}
 				}
 			},
 			"core/paragraph": {
 				"typography": {
-					"lineHeight": "var( --wp--custom--typography--line-height--body )"
+					"lineHeight": "var(--wp--custom--typography--line-height--body)"
 				}
 			},
 			"core/post-content": {
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--default-serif)",
-					"fontWeight": "400"
+					"fontWeight": "400",
+					"letterSpacing": "0"
 				}
 			},
 			"core/post-date": {
@@ -262,17 +263,12 @@
 			},
 			"core/preformatted": {
 				"typography": {
-					"fontSize": "var( --wp--preset--font-size--small )"
+					"fontSize": "var(--wp--preset--font-size--small)"
 				}
 			},
 			"core/pullquote": {
 				"border": {
-					"color": "var(--wp--preset--color--primary)",
-					"style": "solid",
 					"width": "0"
-				},
-				"color": {
-					"text": "var(--wp--preset--color--primary)"
 				},
 				"spacing": {
 					"padding": {
