@@ -568,8 +568,9 @@ blockquote p:last-child { margin-bottom: 0; }
 
 .wp-block-search__button-inside .wp-block-search__inside-wrapper,
 .wp-block-search__button-inside .wp-block-search__input {
+	box-sizing: border-box;
 	margin: 0;
-	padding: .375em .5em !important;
+	padding: .375em .5em .375em .75em !important;
 }
 
 .wp-block-search.wp-block-search__button-inside .wp-block-search__inside-wrapper .wp-block-search__button {
