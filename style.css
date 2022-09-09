@@ -337,6 +337,15 @@ ol.wp-block-comment-template {
 
 /* Block: Post Navigation -------------------- */
 
+.wp-block-query-pagination-numbers {
+	display: flex;
+	gap: .5em;
+}
+
+.wp-block-query-pagination-numbers .current {
+	color: var( --wp--preset--color--primary );
+}
+
 /* STYLE: VERTICAL SEPARATORS */
 
 .wp-block-query-pagination.is-style-king-vertical-separators {
@@ -373,18 +382,20 @@ ol.wp-block-comment-template {
 
 /* Vertical Orientation */
 
-.wp-block-query-pagination.is-style-king-vertical-separators.is-vertical > * {
+.wp-block-query-pagination.is-style-king-vertical-separators.is-vertical > *:not(:empty) {
+	margin: 0;
 	padding: 16px 0;
 	width: 100%;
 }
 
-.wp-block-query-pagination.is-style-king-vertical-separators.is-vertical > * + * {
+.wp-block-query-pagination.is-style-king-vertical-separators.is-vertical > * + *:not(:empty) {
 	border-top: 1px solid var( --wp--preset--color--secondary );
 }
 
 .wp-block-query-pagination.is-style-king-vertical-separators.is-vertical .post-navigation-link-previous a,
 .wp-block-query-pagination.is-style-king-vertical-separators.is-vertical .post-navigation-link-next a,
 .wp-block-query-pagination.is-style-king-vertical-separators.is-vertical .wp-block-query-pagination-numbers {
+	box-sizing: border-box;
 	padding-left: 1.6em;
 }
 
