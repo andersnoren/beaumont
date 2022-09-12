@@ -517,7 +517,6 @@ blockquote p:last-child { margin-bottom: 0; }
 	background: linear-gradient(90deg, currentColor 0%, currentColor calc( 50% - 20px ), transparent calc( 50% - 20px ), transparent calc( 50% + 20px ), currentColor calc( 50% + 20px ), currentColor 100%);
 	border: none;
 	height: 1px !important;
-	max-width: 100%;
 	position: relative;
 }
 

@@ -35,12 +35,9 @@ function king_register_block_patterns() {
 
 	// The block pattern categories included in King.
 	$king_block_pattern_categories = apply_filters( 'king_block_pattern_categories', array(
-		'king-cta'  => array(
-			'label'			=> esc_html__( 'King Call to Action', 'king' ),
-		),
-		'king-general' => array(
-			'label'			=> esc_html__( 'King General', 'king' ),
-		),
+		'king'  => array(
+			'label'			=> esc_html__( 'King Patterns', 'king' ),
+		)
 	) );
 
 	// Sort the block pattern categories alphabetically based on the label value, to ensure alphabetized order when the strings are localized.

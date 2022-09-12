@@ -210,6 +210,7 @@
 					"text": "var(--wp--preset--color--background)"
 				},
 				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--default-sans)",
 					"fontSize": "var(--wp--preset--font-size--small)",
 					"fontWeight": "600",
 					"lineHeight": "var(--wp--custom--typography--line-height--headings)"

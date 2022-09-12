@@ -31,6 +31,10 @@ STIX Two Text font
 License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
 Source: https://fonts.google.com/specimen/STIX+Two+Text
 
+author.png skull with crown image
+License: Public Domain
+Source: https://svgsilh.com/image/1299051.html
+
 
 == Changelog ==
 
