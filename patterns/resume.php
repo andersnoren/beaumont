@@ -1,13 +1,13 @@
 <?php
 /**
  * Title: Résumé.
- * Slug: king/resume
- * Categories: king
+ * Slug: beaumont/resume
+ * Categories: beaumont
  */
 ?>
 
-<!-- wp:separator {"align":"wide","className":"is-style-king-diamond-wide"} -->
-<hr class="wp-block-separator alignwide has-alpha-channel-opacity is-style-king-diamond-wide" />
+<!-- wp:separator {"align":"wide","className":"is-style-beaumont-diamond-wide"} -->
+<hr class="wp-block-separator alignwide has-alpha-channel-opacity is-style-beaumont-diamond-wide" />
 <!-- /wp:separator -->
 
 <!-- wp:columns {"align":"wide"} -->
@@ -33,8 +33,8 @@
 </div>
 <!-- /wp:columns -->
 
-<!-- wp:separator {"align":"wide","className":"is-style-king-diamond-wide"} -->
-<hr class="wp-block-separator alignwide has-alpha-channel-opacity is-style-king-diamond-wide" />
+<!-- wp:separator {"align":"wide","className":"is-style-beaumont-diamond-wide"} -->
+<hr class="wp-block-separator alignwide has-alpha-channel-opacity is-style-beaumont-diamond-wide" />
 <!-- /wp:separator -->
 
 <!-- wp:columns {"align":"wide"} -->
@@ -98,8 +98,8 @@
 </div>
 <!-- /wp:columns -->
 
-<!-- wp:separator {"align":"wide","className":"is-style-king-diamond-wide"} -->
-<hr class="wp-block-separator alignwide has-alpha-channel-opacity is-style-king-diamond-wide" />
+<!-- wp:separator {"align":"wide","className":"is-style-beaumont-diamond-wide"} -->
+<hr class="wp-block-separator alignwide has-alpha-channel-opacity is-style-beaumont-diamond-wide" />
 <!-- /wp:separator -->
 
 <!-- wp:columns {"align":"wide"} -->
@@ -145,8 +145,8 @@
 </div>
 <!-- /wp:columns -->
 
-<!-- wp:separator {"align":"wide","className":"is-style-king-diamond-wide"} -->
-<hr class="wp-block-separator alignwide has-alpha-channel-opacity is-style-king-diamond-wide" />
+<!-- wp:separator {"align":"wide","className":"is-style-beaumont-diamond-wide"} -->
+<hr class="wp-block-separator alignwide has-alpha-channel-opacity is-style-beaumont-diamond-wide" />
 <!-- /wp:separator -->
 
 <!-- wp:columns {"align":"wide"} -->

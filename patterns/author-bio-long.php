@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Long author bio.
- * Slug: king/author-bio-long
- * Categories: king
+ * Slug: beaumont/author-bio-long
+ * Categories: beaumont
  */
 ?>
 <!-- wp:columns {"align":"wide"} -->

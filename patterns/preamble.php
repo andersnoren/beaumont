@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Preamble with a separator.
- * Slug: king/preamble
- * Categories: king
+ * Slug: beaumont/preamble
+ * Categories: beaumont
  */
 ?>
 <!-- wp:group {"align":"wide","layout":{"type":"default","contentSize":"746px"}} -->
@@ -15,8 +15,8 @@
 <!-- /wp:group -->
 <!-- wp:group {"align":"wide"} -->
 <div class="wp-block-group alignwide">
-	<!-- wp:separator {"backgroundColor":"foreground","className":"is-style-king-diamond"} -->
-	<hr class="wp-block-separator has-text-color has-foreground-color has-alpha-channel-opacity has-foreground-background-color has-background is-style-king-diamond" />
+	<!-- wp:separator {"backgroundColor":"foreground","className":"is-style-beaumont-diamond"} -->
+	<hr class="wp-block-separator has-text-color has-foreground-color has-alpha-channel-opacity has-foreground-background-color has-background is-style-beaumont-diamond" />
 	<!-- /wp:separator -->
 </div>
 <!-- /wp:group -->

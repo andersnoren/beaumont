@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Short author bio.
- * Slug: king/author-bio-short
- * Categories: king
+ * Slug: beaumont/author-bio-short
+ * Categories: beaumont
  */
 ?>
 <!-- wp:media-text {"mediaType":"image","backgroundColor":"white"} -->
@@ -16,7 +16,7 @@
 		<!-- /wp:heading -->
 
 		<!-- wp:paragraph {"align":"center"} -->
-		<p class="has-text-align-center">Shirley King is an american author of horror, thriller, supernatural and crime
+		<p class="has-text-align-center">Shirley Beaumont is an american author of horror, thriller, supernatural and crime
 			novels from Derry, Maine.</p>
 		<!-- /wp:paragraph -->
 

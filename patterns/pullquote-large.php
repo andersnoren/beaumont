@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Large pullquote.
- * Slug: king/pullquote-large
- * Categories: king
+ * Slug: beaumont/pullquote-large
+ * Categories: beaumont
  */
 ?>
 <!-- wp:cover {"overlayColor":"foreground","minHeight":50,"minHeightUnit":"vh","align":"full"} -->

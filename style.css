@@ -1,9 +1,9 @@
 /* ---------------------------------------------------------------------------------------------
 
-	Theme Name: King
-    Text Domain: king
+	Theme Name: Beaumont
+    Text Domain: beaumont
 	Version: 0.1
-	Description: King is a simple block theme for your words. It includes a handful of block patterns to help you create beautiful layouts, and 10 different theme styles to choose from.
+	Description: Beaumont is a simple block theme for your words. It includes a handful of block patterns to help you create beautiful layouts, and 10 different theme styles to choose from.
 	Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, sticky-post, threaded-comments, translation-ready, block-styles, wide-blocks, full-site-editing
 	Author: Anders Norén
 	Author URI: https://andersnoren.se
@@ -445,59 +445,59 @@ ol.wp-block-comment-template {
 
 /* STYLE: VERTICAL SEPARATORS */
 
-.wp-block-query-pagination.is-style-king-vertical-separators {
+.wp-block-query-pagination.is-style-beaumont-vertical-separators {
 	border-bottom: 1px solid var( --wp--preset--color--secondary );
 	border-top: 1px solid var( --wp--preset--color--secondary );
 	gap: 0;
 }
 
-.wp-block-query-pagination.is-style-king-vertical-separators a,
+.wp-block-query-pagination.is-style-beaumont-vertical-separators a,
 .wp-block-query-pagination-numbers {
 	position: relative;
 }
 
-.wp-block-query-pagination.is-style-king-vertical-separators .post-navigation-link-previous a:before,
-.wp-block-query-pagination.is-style-king-vertical-separators .post-navigation-link-next a:before {
+.wp-block-query-pagination.is-style-beaumont-vertical-separators .post-navigation-link-previous a:before,
+.wp-block-query-pagination.is-style-beaumont-vertical-separators .post-navigation-link-next a:before {
 	position: absolute;
 }
 
-.wp-block-query-pagination.is-style-king-vertical-separators .post-navigation-link-previous a:before { content: "←"; }
-.wp-block-query-pagination.is-style-king-vertical-separators .post-navigation-link-next a:before { content: "→"; }
+.wp-block-query-pagination.is-style-beaumont-vertical-separators .post-navigation-link-previous a:before { content: "←"; }
+.wp-block-query-pagination.is-style-beaumont-vertical-separators .post-navigation-link-next a:before { content: "→"; }
 
 /* Horizontal Orientation */
 
-.wp-block-query-pagination.is-style-king-vertical-separators:not(.is-vertical) {
+.wp-block-query-pagination.is-style-beaumont-vertical-separators:not(.is-vertical) {
 	gap: 16px;
 	padding: 16px 0;
 }
 
-.wp-block-query-pagination.is-style-king-vertical-separators:not(.is-vertical) .post-navigation-link-previous a { padding-left: 1.6em; }
-.wp-block-query-pagination.is-style-king-vertical-separators:not(.is-vertical) .post-navigation-link-previous a:before { left: 0; }
+.wp-block-query-pagination.is-style-beaumont-vertical-separators:not(.is-vertical) .post-navigation-link-previous a { padding-left: 1.6em; }
+.wp-block-query-pagination.is-style-beaumont-vertical-separators:not(.is-vertical) .post-navigation-link-previous a:before { left: 0; }
 
-.wp-block-query-pagination.is-style-king-vertical-separators:not(.is-vertical) .post-navigation-link-next a { padding-right: 1.6em; }
-.wp-block-query-pagination.is-style-king-vertical-separators:not(.is-vertical) .post-navigation-link-next a:before { right: 0; }
+.wp-block-query-pagination.is-style-beaumont-vertical-separators:not(.is-vertical) .post-navigation-link-next a { padding-right: 1.6em; }
+.wp-block-query-pagination.is-style-beaumont-vertical-separators:not(.is-vertical) .post-navigation-link-next a:before { right: 0; }
 
 /* Vertical Orientation */
 
-.wp-block-query-pagination.is-style-king-vertical-separators.is-vertical > *:not(:empty) {
+.wp-block-query-pagination.is-style-beaumont-vertical-separators.is-vertical > *:not(:empty) {
 	margin: 0;
 	padding: 16px 0;
 	width: 100%;
 }
 
-.wp-block-query-pagination.is-style-king-vertical-separators.is-vertical > * + *:not(:empty) {
+.wp-block-query-pagination.is-style-beaumont-vertical-separators.is-vertical > * + *:not(:empty) {
 	border-top: 1px solid var( --wp--preset--color--secondary );
 }
 
-.wp-block-query-pagination.is-style-king-vertical-separators.is-vertical .post-navigation-link-previous a,
-.wp-block-query-pagination.is-style-king-vertical-separators.is-vertical .post-navigation-link-previous + .wp-block-query-pagination-numbers,
-.wp-block-query-pagination.is-style-king-vertical-separators.is-vertical .post-navigation-link-next a {
+.wp-block-query-pagination.is-style-beaumont-vertical-separators.is-vertical .post-navigation-link-previous a,
+.wp-block-query-pagination.is-style-beaumont-vertical-separators.is-vertical .post-navigation-link-previous + .wp-block-query-pagination-numbers,
+.wp-block-query-pagination.is-style-beaumont-vertical-separators.is-vertical .post-navigation-link-next a {
 	box-sizing: border-box;
 	padding-left: 1.6em;
 }
 
-.wp-block-query-pagination.is-style-king-vertical-separators.is-vertical .post-navigation-link-next a:before,
-.wp-block-query-pagination.is-style-king-vertical-separators.is-vertical .post-navigation-link-previous a:before { 
+.wp-block-query-pagination.is-style-beaumont-vertical-separators.is-vertical .post-navigation-link-next a:before,
+.wp-block-query-pagination.is-style-beaumont-vertical-separators.is-vertical .post-navigation-link-previous a:before { 
 	left: 0;
 }
 
@@ -512,7 +512,7 @@ blockquote p:last-child { margin-bottom: 0; }
 
 /* Block: Separator -------------------------- */
 
-:root hr[class*="is-style-king-diamond"] {
+:root hr[class*="is-style-beaumont-diamond"] {
 	background-color: transparent !important;
 	background: linear-gradient(90deg, currentColor 0%, currentColor calc( 50% - 20px ), transparent calc( 50% - 20px ), transparent calc( 50% + 20px ), currentColor calc( 50% + 20px ), currentColor 100%);
 	border: none;
@@ -520,10 +520,10 @@ blockquote p:last-child { margin-bottom: 0; }
 	position: relative;
 }
 
-:root hr.is-style-king-diamond { width: 201px !important; }
-:root hr.is-style-king-diamond-wide { width: 100% !important; }
+:root hr.is-style-beaumont-diamond { width: 201px !important; }
+:root hr.is-style-beaumont-diamond-wide { width: 100% !important; }
 
-:root hr[class*="is-style-king-diamond"]:before {
+:root hr[class*="is-style-beaumont-diamond"]:before {
 	background-color: currentColor;
 	content: "";
 	display: block;
