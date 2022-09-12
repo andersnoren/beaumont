@@ -35,9 +35,6 @@ function king_register_block_patterns() {
 
 	// The block pattern categories included in King.
 	$king_block_pattern_categories = apply_filters( 'king_block_pattern_categories', array(
-		'king-blog'  => array(
-			'label'			=> esc_html__( 'King Blog', 'king' ),
-		),
 		'king-cta'  => array(
 			'label'			=> esc_html__( 'King Call to Action', 'king' ),
 		),

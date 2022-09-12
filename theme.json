@@ -464,8 +464,23 @@
 			"area": "footer"
 		},
 		{
-			"title": "Loop",
+			"title": "Loop (Excerpt)",
+			"name": "loop-excerpt",
+			"area": "uncategorized"
+		},
+		{
+			"title": "Loop (Grid)",
+			"name": "loop-grid",
+			"area": "uncategorized"
+		},
+		{
+			"title": "Loop (List)",
 			"name": "loop",
+			"area": "uncategorized"
+		},
+		{
+			"title": "Loop (List with image)",
+			"name": "loop-list-image",
 			"area": "uncategorized"
 		},
 		{

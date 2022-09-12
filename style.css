@@ -247,6 +247,7 @@ p.has-background {
 /* ------------------------------------------- */
 
 .hide-when-empty:empty { display: none !important; }
+.no-shrink { flex-shrink: 0 !important; }
 
 
 /* ------------------------------------------- */
@@ -265,12 +266,6 @@ p.has-background {
 
 .wp-site-blocks > * + * {
 	margin-top: 0;
-}
-
-/* Template Part: Loop ----------------------- */
-
-.wp-block-group.is-nowrap > .wp-block-post-date {
-	flex-shrink: 0;
 }
 
 
