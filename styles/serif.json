@@ -1,0 +1,67 @@
+{
+    "title": "Only Serif",
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 2,
+    "styles": {
+		"blocks": {
+			"core/button": {
+				"typography": {
+					"fontFamily": "inherit",
+					"letterSpacing": "0px"
+				}
+			},
+			"core/table": {
+				"typography": {
+					"fontFamily": "inherit"
+				}
+			}
+		},
+		"elements": {
+			"h1": {
+				"typography": {
+					"fontFamily": "inherit",
+					"letterSpacing": "0px"
+				}
+			},
+			"h2": {
+				"typography": {
+					"fontFamily": "inherit",
+					"letterSpacing": "0px"
+				}
+			},
+			"h3": {
+				"typography": {
+					"fontFamily": "inherit",
+					"letterSpacing": "0px"
+				}
+			},
+			"h4": {
+				"typography": {
+					"fontFamily": "inherit",
+					"letterSpacing": "0px"
+				}
+			},
+			"h5": {
+				"typography": {
+					"fontFamily": "inherit",
+					"letterSpacing": "0px"
+				}
+			},
+			"h6": {
+				"typography": {
+					"fontFamily": "inherit",
+					"letterSpacing": "0px"
+				}
+			},
+			"link": {
+				"color": {
+					"text": "inherit"
+				}
+			}
+		},
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--default)",
+			"fontWeight": "400"
+		}
+	}
+}

@@ -336,6 +336,7 @@
 			},
 			"core/table": {
 				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--default-sans)",
 					"fontSize": "var(--wp--preset--font-size--small)",
 					"lineHeight": "var(--wp--custom--typography--line-height--body)"
 				}

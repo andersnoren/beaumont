@@ -1,0 +1,31 @@
+{
+    "title": "George Stark",
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 2,
+    "settings": {
+        "color": {
+			"palette": [
+				{
+					"slug": "foreground",
+					"color": "#F7F5F3",
+					"name": "Foreground"
+				},
+				{
+					"slug": "background",
+					"color": "#1D201F",
+					"name": "Background"
+				},
+				{
+					"slug": "primary",
+					"color": "#868685",
+					"name": "Primary"
+				},
+				{
+					"slug": "secondary",
+					"color": "#333534",
+					"name": "Secondary"
+				}
+			]
+		}
+    }
+}

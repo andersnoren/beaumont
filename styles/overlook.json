@@ -1,0 +1,31 @@
+{
+    "title": "The Overlook",
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 2,
+    "settings": {
+        "color": {
+			"palette": [
+				{
+					"slug": "foreground",
+					"color": "#ffffff",
+					"name": "Foreground"
+				},
+				{
+					"slug": "background",
+					"color": "#0D0101",
+					"name": "Background"
+				},
+				{
+					"slug": "primary",
+					"color": "#CC551E",
+					"name": "Primary"
+				},
+				{
+					"slug": "secondary",
+					"color": "#251A1A",
+					"name": "Secondary"
+				}
+			]
+		}
+    }
+}

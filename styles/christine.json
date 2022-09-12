@@ -1,0 +1,31 @@
+{
+    "title": "Christine",
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 2,
+    "settings": {
+        "color": {
+			"palette": [
+				{
+					"slug": "foreground",
+					"color": "#1C1D1D",
+					"name": "Foreground"
+				},
+				{
+					"slug": "background",
+					"color": "#FFD041",
+					"name": "Background"
+				},
+				{
+					"slug": "primary",
+					"color": "#1C1D1D",
+					"name": "Primary"
+				},
+				{
+					"slug": "secondary",
+					"color": "#1C1D1D",
+					"name": "Secondary"
+				}
+			]
+		}
+    }
+}
