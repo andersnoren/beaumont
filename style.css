@@ -2,7 +2,7 @@
 
 	Theme Name: Beaumont
     Text Domain: beaumont
-	Version: 0.1
+	Version: 0.1.1
 	Description: Beaumont is a simple block theme for your words. It includes a handful of block patterns to help you create beautiful layouts, and 10 different theme styles to choose from.
 	Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, sticky-post, threaded-comments, translation-ready, block-styles, wide-blocks, full-site-editing
 	Author: Anders Norén
@@ -17,21 +17,10 @@
 
 /* --------------------------------------------------------------------------------------------- */
 
-/*
- * Font smoothing.
- * This is a niche setting that will not be available via Global Styles.
- * https://github.com/WordPress/gutenberg/issues/35934
- */
-
 body {
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased;
 }
-
-/*
- * Link styles. Necessary until the following issue is resolved in Gutenberg:
- * https://github.com/WordPress/gutenberg/issues/27075
- */
 
 a {
 	text-decoration-thickness: 1px;
@@ -79,6 +68,26 @@ label {
 	font-weight: 500;
 }
 
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+.wp-block-search__button,
+.wp-block-file .wp-block-file__button {
+	background-color: var( --wp--preset--color--foreground );
+	border: none;
+	border-radius: 999rem;
+	color: var(--wp--preset--color--background);
+	font-size: var(--wp--preset--font-size--medium);
+	letter-spacing: 0;
+	padding: .867em 1.6em;
+}
+
+.wp-block-file .wp-block-file__button:hover,
+.wp-block-button__link:hover,
+.wp-block-button__link:visited {
+	color: var( --wp--preset--color--background );
+}
+
 /* Figure Styles */
 
 figure {
@@ -95,22 +104,7 @@ figcaption {
 	font-weight: 500;
 }
 
-/*
- * Button hover styles. Necessary until the following issue is resolved in Gutenberg:
- * https://github.com/WordPress/gutenberg/issues/27075
- */
-
-.wp-block-file .wp-block-file__button:hover,
-.wp-block-button__link:hover,
-.wp-block-button__link:visited {
-	color: var( --wp--preset--color--background );
-}
-
-/*
- * Alignment styles. Relevant issues:
- * https://github.com/WordPress/gutenberg/issues/35607
- * https://github.com/WordPress/gutenberg/issues/35884
- */
+/* Alignment Styles -------------------------- */
 
 .wp-site-blocks,
 body>.is-root-container,
@@ -150,27 +144,6 @@ body>.is-root-container>.wp-block-template-part>.wp-block-cover,
 
 }
 
-/*
- * Search and File Block button styles.
- * Necessary until the following issues are resolved in Gutenberg:
- * https://github.com/WordPress/gutenberg/issues/36444
- * https://github.com/WordPress/gutenberg/issues/27760
- */
-
-input[type="button"],
-input[type="submit"],
-input[type="reset"],
-.wp-block-search__button,
-.wp-block-file .wp-block-file__button {
-	background-color: var( --wp--preset--color--foreground );
-	border: none;
-	border-radius: 999rem;
-	color: var(--wp--preset--color--background);
-	font-size: var(--wp--preset--font-size--medium);
-	letter-spacing: 0;
-	padding: .867em 1.6em;
-}
-
 /* Editor Post Title */
 
 .editor-post-title__input { 
@@ -179,13 +152,7 @@ input[type="reset"],
 
 /* Background Padding */
 
-h1.has-background, 
-h2.has-background, 
-h3.has-background, 
-h4.has-background, 
-h5.has-background, 
-h6.has-background,
-p.has-background {
+h1.has-background, h2.has-background, h3.has-background, h4.has-background, h5.has-background, h6.has-background,p.has-background {
 	padding: min( 1em, var( --wp--custom--spacing--small ) );
 }
 
@@ -193,18 +160,11 @@ p.has-background {
 	padding: min( 2em, var( --wp--custom--spacing--small ) );
 }
 
-
 /* ------------------------------------------- */
 /*	Typography
 /* ------------------------------------------- */
 
-
-.has-huge-font-size,
-.has-heading-1-font-size,
-.has-heading-2-font-size,
-.has-heading-3-font-size,
-.has-heading-4-font-size,
-.has-heading-5-font-size { 
+.has-huge-font-size, .has-heading-1-font-size, .has-heading-2-font-size, .has-heading-3-font-size, .has-heading-4-font-size, .has-heading-5-font-size { 
 	letter-spacing: var( --wp--custom--typography--letter-spacing--heading );
 	line-height: var( --wp--custom--typography--line-height--headings ); 
 }
@@ -241,7 +201,6 @@ p.has-background {
 	text-decoration: underline;
 }
 
-
 /* ------------------------------------------- */
 /* Helper Classes
 /* ------------------------------------------- */
@@ -249,11 +208,9 @@ p.has-background {
 .hide-when-empty:empty { display: none !important; }
 .no-shrink { flex-shrink: 0 !important; }
 
-
 /* ------------------------------------------- */
 /* Template Parts
 /* ------------------------------------------- */
-
 
 /* Site Blocks ------------------------------- */
 
@@ -268,11 +225,9 @@ p.has-background {
 	margin-top: 0;
 }
 
-
 /* ------------------------------------------- */
 /* Blocks
 /* ------------------------------------------- */
-
 
 /* Block: Avatar ----------------------------- */
 
@@ -304,7 +259,7 @@ p.has-background {
 }
 
 .wp-block-post-comments-form input[type=submit] {
-	border-radius: 999rem;
+	border-radius: 999px;
 	font-size: var( --wp--preset--font-size--small );
 }
 
@@ -365,8 +320,7 @@ ol.wp-block-comment-template {
 	border-color: var( --wp--preset--color--secondary );
 }
 
-.required-field-message,
-.comment-notes {
+.required-field-message, .comment-notes {
 	display: none;
 }
 
