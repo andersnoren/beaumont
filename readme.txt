@@ -38,6 +38,11 @@ Source: https://svgsilh.com/image/1299051.html
 
 == Changelog ==
 
+Version 0.1.2 (2022-09-13)
+-------------------------
+- Vertically center the timestamp in the "Loop (List with image)" template part.
+- Fixed a search and replace gone wrong on the 404 template.
+
 Version 0.1.1 (2022-09-13)
 -------------------------
 - Added the "no-shrink" classname to the Post Date block in the loop on front-page.html, preventing it from having line breaks.
