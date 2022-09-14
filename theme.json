@@ -146,7 +146,7 @@
 				},
 				{
 					"slug": "medium",
-					"size": "clamp(18px, 2.8vw, 22px)",
+					"size": "clamp(19px, 2.8vw, 22px)",
 					"name": "Medium"
 				},
 				{

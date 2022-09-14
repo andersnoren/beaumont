@@ -38,6 +38,13 @@ Source: https://svgsilh.com/image/1299051.html
 
 == Changelog ==
 
+Version 0.1.3 (2022-09-14)
+-------------------------
+- Bumped the minimum font size of body text by one pixel, to improve readability on mobile.
+- Improved the style of the query pagination style when there's only one link.
+- Added a gap between Post Title and Post Date in the Loop template parts, and the front page Query Loop. 
+- Fixed the Query Pagination not being hidden when :empty due to extra whitespace in the template part markup.
+
 Version 0.1.2 (2022-09-13)
 -------------------------
 - Vertically center the timestamp in the "Loop (List with image)" template part.
