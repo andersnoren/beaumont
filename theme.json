@@ -468,6 +468,16 @@
 			"area": "footer"
 		},
 		{
+			"title": "Loop (Cover)",
+			"name": "loop-cover",
+			"area": "uncategorized"
+		},
+		{
+			"title": "Loop (Cover Full Width)",
+			"name": "loop-cover-full-width",
+			"area": "uncategorized"
+		},
+		{
 			"title": "Loop (Excerpt)",
 			"name": "loop-excerpt",
 			"area": "uncategorized"
@@ -478,12 +488,17 @@
 			"area": "uncategorized"
 		},
 		{
+			"title": "Loop (Grid with Cover Images)",
+			"name": "loop-grid-cover",
+			"area": "uncategorized"
+		},
+		{
 			"title": "Loop (List)",
 			"name": "loop",
 			"area": "uncategorized"
 		},
 		{
-			"title": "Loop (List with image)",
+			"title": "Loop (List with Image)",
 			"name": "loop-list-image",
 			"area": "uncategorized"
 		},

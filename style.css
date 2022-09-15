@@ -2,8 +2,8 @@
 
 	Theme Name: Beaumont
     Text Domain: beaumont
-	Version: 0.1.4
-	Description: Beaumont is a simple block theme for your words. It includes a handful of block patterns to help you create beautiful layouts, and 10 different theme styles to choose from. Demo: https://andersnoren.se/themes/beaumont/
+	Version: 0.1.5
+	Description: Beaumont is a simple block theme for your words. It includes a handful of block patterns to help you create beautiful layouts, ten different theme styles to choose from, and seven different layouts for the blog archive. Demo: https://andersnoren.se/themes/beaumont/
 	Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, sticky-post, threaded-comments, translation-ready, block-styles, wide-blocks, full-site-editing
 	Author: Anders Norén
 	Author URI: https://andersnoren.se
@@ -178,6 +178,7 @@ h1.has-background, h2.has-background, h3.has-background, h4.has-background, h5.h
 
 /* Text Decoration */
 
+.wp-block-read-more,
 #cancel-comment-reply-link,
 .wp-block-comment-edit-link a,
 .comment-reply-link,
@@ -191,6 +192,7 @@ h1.has-background, h2.has-background, h3.has-background, h4.has-background, h5.h
 	text-decoration: none;
 }
 
+.wp-block-read-more:hover, .wp-block-read-more:focus,
 #cancel-comment-reply-link:hover, #cancel-comment-reply-link:focus,
 .wp-block-comment-edit-link a:hover, .wp-block-comment-edit-link a:focus,
 .comment-reply-link:hover, .comment-reply-link:focus,

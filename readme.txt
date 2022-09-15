@@ -38,6 +38,13 @@ Source: https://svgsilh.com/image/1299051.html
 
 == Changelog ==
 
+Version 0.1.5 (2022-09-XX)
+-------------------------
+- Added three more designs for the blog archive (loop template part) using the Cover block:
+	- Loop (Cover)
+	- Loop (Cover Full Width)
+	- Loop (Grid with Cover Images)
+
 Version 0.1.4 (2022-09-14)
 -------------------------
 - Adjusted the default spacing of pull quotes to work better with left/right aligned blocks.
