@@ -38,6 +38,21 @@ Source: https://svgsilh.com/image/1299051.html
 
 == Changelog ==
 
+Version 0.1.4 (2022-09-14)
+-------------------------
+- Adjusted the default spacing of pull quotes to work better with left/right aligned blocks.
+- Set -webkit-appearance to none on inputs and buttons, fixing mobile display.
+- Updated style.css with a Theme URI, and the theme description with a link to the demo site.
+- Cleaned up style.css.
+- Theme.json:
+	- Added block settings for core/code.
+	- Updated heading margins to match blockGap overrides in style.css.
+- New block patterns:
+	- Paragraph with a pull quote aligned to the left.
+	- Paragraph with a pull quote aligned to the right.
+	- Paragraph with drop cap.
+	- Wide pullquote with diamond separators.
+
 Version 0.1.3 (2022-09-14)
 -------------------------
 - Bumped the minimum font size of body text by one pixel, to improve readability on mobile.

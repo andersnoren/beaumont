@@ -224,6 +224,19 @@
 					"fontSize": "var(--wp--preset--font-size--small)"
 				}
 			},
+			"core/code": {
+				"border": {
+					"radius": "0",
+					"width": "0"
+				},
+				"color": {
+					"background": "var(--wp--preset--color--foreground)",
+					"text": "var(--wp--preset--color--background)"
+				},
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--small)"
+				}
+			},
 			"core/image": {
 				"border": {
 					"radius": "8px"
@@ -273,9 +286,9 @@
 				},
 				"spacing": {
 					"padding": {
-						"top": "0",
+						"top": "var(--wp--custom--spacing--baseline)",
 						"right": "0",
-						"bottom": "0",
+						"bottom": "var(--wp--custom--spacing--baseline)",
 						"left": "0"
 					}
 				},
@@ -296,18 +309,7 @@
 					}
 				}
 			},
-			"core/social-links": {
-				"spacing": {
-					"blockGap": ".66em"
-				}
-			},
 			"core/site-tagline": {
-				"spacing": {
-					"margin": {
-						"bottom": "0px",
-						"top": "0px"
-					}
-				},
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--medium)"
 				}
@@ -322,7 +324,7 @@
 				"typography": {
 					"fontFamily": "inherit",
 					"fontStyle": "inherit",
-					"fontWeight": "600",
+					"fontWeight": "500",
 					"textTransform": "inherit"
 				}
 			},
@@ -350,8 +352,8 @@
 			"h1": {
 				"spacing": {
 					"margin": {
-						"bottom": "1em",
-						"top": ".75em"
+						"bottom": ".75em",
+						"top": "1.25em"
 					}
 				},
 				"typography": {
@@ -365,8 +367,8 @@
 			"h2": {
 				"spacing": {
 					"margin": {
-						"bottom": "1em",
-						"top": ".75em"
+						"bottom": ".75em",
+						"top": "1.25em"
 					}
 				},
 				"typography": {
@@ -380,8 +382,8 @@
 			"h3": {
 				"spacing": {
 					"margin": {
-						"bottom": "1em",
-						"top": ".75em"
+						"bottom": ".75em",
+						"top": "1.25em"
 					}
 				},
 				"typography": {
@@ -395,8 +397,8 @@
 			"h4": {
 				"spacing": {
 					"margin": {
-						"bottom": "1em",
-						"top": ".75em"
+						"bottom": ".75em",
+						"top": "1.25em"
 					}
 				},
 				"typography": {
@@ -410,8 +412,8 @@
 			"h5": {
 				"spacing": {
 					"margin": {
-						"bottom": "1em",
-						"top": ".75em"
+						"bottom": ".75em",
+						"top": "1.25em"
 					}
 				},
 				"typography": {
@@ -425,8 +427,8 @@
 			"h6": {
 				"spacing": {
 					"margin": {
-						"bottom": "1em",
-						"top": ".75em"
+						"bottom": ".75em",
+						"top": "1.25em"
 					}
 				},
 				"typography": {
