@@ -38,8 +38,9 @@ Source: https://svgsilh.com/image/1299051.html
 
 == Changelog ==
 
-Version 0.1.5 (2022-09-XX)
+Version 0.1.5 (2022-09-15)
 -------------------------
+- Updated the style.css theme description with mention of the different blog archive designs.
 - Added three more designs for the blog archive (loop template part) using the Cover block:
 	- Loop (Cover)
 	- Loop (Cover Full Width)
