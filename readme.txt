@@ -38,6 +38,11 @@ Source: https://svgsilh.com/image/1299051.html
 
 == Changelog ==
 
+Version 0.1.7 (2022-09-27)
+-------------------------
+- Included a couple more instances of "theme":"beaumont" that I missed in 0.1.6.
+- Query Loop: Fixed the spacing between list items when running WP 6.1 or the Gutenberg plugin.
+
 Version 0.1.6 (2022-09-27)
 -------------------------
 - Updated <!-- wp:template-part --/> to omit the "theme":"beaumont" code, fixing issues when modifying template parts in child themes (thanks, @janboddez).
