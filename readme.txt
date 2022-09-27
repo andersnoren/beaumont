@@ -38,6 +38,10 @@ Source: https://svgsilh.com/image/1299051.html
 
 == Changelog ==
 
+Version 0.1.6 (2022-09-27)
+-------------------------
+- Updated <!-- wp:template-part --/> to omit the "theme":"beaumont" code, fixing issues when modifying template parts in child themes (thanks, @janboddez).
+
 Version 0.1.5 (2022-09-15)
 -------------------------
 - Updated the style.css theme description with mention of the different blog archive designs.
