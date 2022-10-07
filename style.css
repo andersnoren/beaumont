@@ -2,7 +2,7 @@
 
 	Theme Name: Beaumont
     Text Domain: beaumont
-	Version: 0.1.7
+	Version: 0.1.8
 	Description: Beaumont is a simple block theme for your words. It includes a handful of block patterns to help you create beautiful layouts, ten different theme styles to choose from, and seven different layouts for the blog archive. Demo: https://andersnoren.se/themes/beaumont/
 	Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, sticky-post, threaded-comments, translation-ready, block-styles, wide-blocks, full-site-editing
 	Author: Anders Norén
@@ -351,10 +351,6 @@ ol.wp-block-comment-template {
 
 .wp-block-post-template {
 	--wp--style--block-gap: 0;
-}
-
-body .wp-block-post-template.is-layout-flow > * + * {
-	margin-top: 0;
 }
 
 /* Block: Pull Quote ------------------------- */

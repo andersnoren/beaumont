@@ -275,6 +275,11 @@
 					"lineHeight": "var(--wp--custom--typography--line-height--body)"
 				}
 			},
+			"core/post-template": {
+				"spacing": {
+					"blockGap": "0"
+				}
+			},
 			"core/preformatted": {
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--small)"

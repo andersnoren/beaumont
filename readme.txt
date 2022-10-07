@@ -38,6 +38,11 @@ Source: https://svgsilh.com/image/1299051.html
 
 == Changelog ==
 
+Version 0.1.8 (2022-10-07)
+-------------------------
+- Query Loop: Better fix for the spacing between list items when running WP 6.1 or the Gutenberg plugin.
+- Removed index.php, since it's no longer needed to pass the WordPress.org automatic theme review.
+
 Version 0.1.7 (2022-09-27)
 -------------------------
 - Included a couple more instances of "theme":"beaumont" that I missed in 0.1.6.
