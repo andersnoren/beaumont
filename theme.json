@@ -548,6 +548,18 @@
 				}
 			},
 			"core/site-title": {
+				"elements": {
+					"link": {
+						":hover": {
+							"typography": {
+								"textDecoration": "underline"
+							}
+						},
+						"typography": {
+							"textDecoration": "none"
+						}
+					}
+				},
 				"spacing": {
 					"margin": {
 						"bottom": "0px",

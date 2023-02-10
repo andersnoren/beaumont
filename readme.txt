@@ -38,6 +38,10 @@ Source: https://svgsilh.com/image/1299051.html
 
 == Changelog ==
 
+Version 0.2.1 (2023-02-10)
+-------------------------
+- Site Title block: Updated the link to be underlined on hover.
+
 Version 0.2 (2023-02-09)
 -------------------------
 - Added WordPress 6.1 support.
