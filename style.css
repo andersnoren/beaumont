@@ -2,7 +2,7 @@
 
 	Theme Name: Beaumont
     Text Domain: beaumont
-	Version: 0.2.1
+	Version: 0.2.2
 	Description: Beaumont is a simple block theme for your words. It includes a handful of block patterns to help you create beautiful layouts, ten different theme styles to choose from, and seven different layouts for the blog archive. Demo: https://andersnoren.se/themes/beaumont/
 	Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, sticky-post, threaded-comments, translation-ready, block-styles, wide-blocks, full-site-editing
 	Author: Anders Norén
@@ -97,21 +97,6 @@ h1.has-background, h2.has-background, h3.has-background, h4.has-background, h5.h
 
 .hide-when-empty:empty { display: none !important; }
 .no-shrink { flex-shrink: 0 !important; }
-
-/* ------------------------------------------- */
-/* Template Parts
-/* ------------------------------------------- */
-
-.wp-site-blocks {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	min-height: calc( 100svh - var( --wp-admin--admin-bar--height, 0 ) );
-}
-
-.wp-site-blocks > * + * {
-	margin-top: 0;
-}
 
 /* ------------------------------------------- */
 /* Blocks
@@ -234,23 +219,15 @@ ol.wp-block-comment-template {
 
 /* Block: Pull Quote ------------------------- */
 
-:root .wp-block-pullquote blockquote,
-:root .wp-block-pullquote blockquote p {
-	line-height: inherit;
-}
-
-:root .wp-block-pullquote blockquote p {
-	hanging-punctuation: first;
-	font-size: inherit;
-}
-
 :root .wp-block-pullquote.alignleft, 
 :root .wp-block-pullquote.alignright {
 	max-width: min( 316px, 50% );
 }
 
-:root .wp-block-pullquote:first-child { padding-top: 0; }
-:root .wp-block-pullquote:last-child { padding-bottom: 0; }
+.wp-block-pullquote blockquote p {
+	hanging-punctuation: first;
+	line-height: inherit;
+}
 
 /* Block: Query Pagination ------------------- */
 
@@ -339,7 +316,11 @@ blockquote {
 }
 
 blockquote p:first-child { margin-top: 0; }
-blockquote p:last-child { margin-bottom: 0; }
+blockquote p:last-of-type { margin-bottom: 0; }
+
+blockquote cite {
+	display: block;
+}
 
 /* Block: Separator -------------------------- */
 

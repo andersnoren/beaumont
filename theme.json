@@ -498,6 +498,20 @@
 				"border": {
 					"width": "0"
 				},
+				"elements": {
+					"cite": {
+						"spacing": {
+							"margin": {
+								"top": "1.5em"
+							}
+						},
+						"typography": {
+							"fontSize": "var(--wp--preset--font-size--medium)",
+							"fontWeight": "600",
+							"textTransform": "none"
+						}
+					}
+				},
 				"spacing": {
 					"padding": {
 						"bottom": "var(--wp--preset--spacing--30)",

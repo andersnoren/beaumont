@@ -38,6 +38,10 @@ Source: https://svgsilh.com/image/1299051.html
 
 == Changelog ==
 
+Version 0.2.2 (2023-02-13)
+-------------------------
+- Fixed the Pull Quote block cite styles.
+
 Version 0.2.1 (2023-02-10)
 -------------------------
 - Site Title block: Updated the link to be underlined on hover.
