@@ -264,8 +264,8 @@
 				},
 				{
 					"fluid": {
-						"max": "38px",
-						"min": "33px"
+						"max": "48px",
+						"min": "43px"
 					},
 					"name": "Heading 2",
 					"size": "48px",
