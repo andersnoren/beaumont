@@ -6,8 +6,6 @@
 
 function beaumont_setup() {
 
-	add_theme_support( 'wp-block-styles' );
-
 	add_editor_style( 'style.css' );
 
 }
