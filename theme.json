@@ -1,5 +1,4 @@
 {
-	"$schema": "https://schemas.wp.org/trunk/theme.json",
 	"customTemplates": [
 		{
 			"name": "template-blank",
@@ -16,7 +15,6 @@
 	"settings": {
 		"appearanceTools": true,
 		"color": {
-			"link": true,
 			"palette": [
 				{
 					"color": "#1D201F",
@@ -64,7 +62,6 @@
 			"wideSize": "960px"
 		},
 		"spacing": {
-			"blockGap": true,
 			"spacingScale": {
 				"steps": 0
 			},
@@ -456,11 +453,6 @@
 					"lineHeight": "var(--wp--custom--typography--line-height--body)"
 				}
 			},
-			"core/post-template": {
-				"spacing": {
-					"blockGap": "0"
-				}
-			},
 			"core/post-navigation-link": {
 				"elements": {
 					"link": {
@@ -473,6 +465,11 @@
 							"textDecoration": "none"
 						}
 					}
+				}
+			},
+			"core/post-template": {
+				"spacing": {
+					"blockGap": "0"
 				}
 			},
 			"core/post-title": {
@@ -772,5 +769,6 @@
 			"title": "Loop (List with Image)"
 		}
 	],
-	"version": 2
+	"version": 2,
+	"$schema": "https://schemas.wp.org/trunk/theme.json"
 }

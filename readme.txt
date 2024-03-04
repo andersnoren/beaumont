@@ -3,7 +3,7 @@ Contributors: Anlino
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=anders%40andersnoren%2ese&lc=US&item_name=Free%20WordPress%20Themes%20from%20Anders%20Noren&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted
 Requires at least: 6.1
 Requires PHP: 5.6
-Tested up to: 6.3
+Tested up to: 6.4
 Stable tag: trunk
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -37,6 +37,13 @@ Source: https://svgsilh.com/image/1299051.html
 
 
 == Changelog ==
+
+Version 0.2.4 (2024-03-04)
+-------------------------
+- Changed the Site Title block in the header to a paragraph element, to avoid having duplicate H1 elements on pages. Props: @tombie
+- Updated the demo site URL in the theme description.
+- Bumped "Tested up to" to 6.4.
+- Bumped copyright year in the footer to 2024.
 
 Version 0.2.3 (2023-08-21)
 -------------------------
