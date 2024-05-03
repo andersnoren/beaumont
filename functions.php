@@ -18,7 +18,7 @@ add_action( 'after_setup_theme', 'beaumont_setup' );
 
 function beaumont_styles() {
 
-	wp_enqueue_style( 'beaumont-styles', get_theme_file_uri( '/style.css' ), array(), wp_get_theme( 'beaumont' )->get( 'Version' ) );
+	wp_enqueue_style( 'beaumont-styles', get_template_directory_uri() . '/style.css', array(), wp_get_theme( 'beaumont' )->get( 'Version' ) );
 
 }
 add_action( 'wp_enqueue_scripts', 'beaumont_styles' );
