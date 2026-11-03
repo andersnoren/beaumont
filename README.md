@@ -19,10 +19,10 @@ Keep in mind that I maintain my themes in my spare time. Even though I deeply ap
 Do you want to support the continued development of Beaumont? You can send me a PayPal donation [here](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=anders%40andersnoren%2ese&lc=US&item_name=Free%20WordPress%20Themes%20from%20Anders%20Noren&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted).
 
 ## Requirements
-- WordPress 6.0+
+- WordPress 6.1+
 - PHP 5.6+
 - License: [GPLv2](https://www.gnu.org/licenses/gpl-2.0.html) or later
 
 ## Resources
 - [About Beaumont](https://andersnoren.se/teman/beaumont-wordpress-theme/)
-- [Beaumont demo site](https://andersnoren.se/themes/beaumont/)
+- [Beaumont demo site](https://beaumont.andersnoren.se)

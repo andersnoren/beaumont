@@ -3,10 +3,17 @@ Contributors: Anlino
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=anders%40andersnoren%2ese&lc=US&item_name=Free%20WordPress%20Themes%20from%20Anders%20Noren&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted
 Requires at least: 6.1
 Requires PHP: 5.6
-Tested up to: 6.5
+Tested up to: 7.1
 Stable tag: trunk
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
+
+A simple block theme for your words.
+
+
+== Description ==
+
+Beaumont is a simple block theme for your words. It includes a handful of block patterns to help you create beautiful layouts, ten different theme styles to choose from, and seven different layouts for the blog archive. Demo: https://beaumont.andersnoren.se
 
 
 == Installation ==
@@ -14,6 +21,21 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 1. Make sure you're running WordPress 6.1 or later.
 2. Upload the theme.
 3. Activate the theme.
+
+
+== Frequently Asked Questions ==
+
+= Where can I get support? =
+Post your question in the Beaumont support forum on WordPress.org: https://wordpress.org/support/theme/beaumont/
+
+= Where can I request a feature or report a bug? =
+Open an issue in the Beaumont GitHub repository: https://github.com/andersnoren/beaumont
+
+
+== Copyright ==
+
+Beaumont WordPress Theme, Copyright 2022-2026 Anders Norén
+Beaumont is distributed under the terms of the GNU GPL.
 
 
 == Licenses ==
@@ -37,6 +59,14 @@ Source: https://svgsilh.com/image/1299051.html
 
 
 == Changelog ==
+
+Version 1.0.0 (2026-11-03)
+-------------------------
+- Beaumont is now version 1.0.0, reflecting its status as a stable theme. No breaking changes.
+- Tested with WordPress 7.1.
+- Bumped the copyright year in the footer to 2026.
+- Added the Requires at least header to style.css.
+- Added Description, FAQ, Copyright and Upgrade Notice sections to the readme.
 
 Version 0.2.5 (2024-05-03)
 -------------------------
@@ -131,3 +161,9 @@ Version 0.1.1 (2022-09-13)
 
 Version 0.1 (2022-09-12)
 -------------------------
+
+
+== Upgrade Notice ==
+
+= 1.0.0 =
+Tested with WordPress 7.1. Beaumont is now version 1.0.0, reflecting its status as a stable theme. No breaking changes.
